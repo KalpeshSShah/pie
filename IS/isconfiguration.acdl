@@ -1,8 +1,8 @@
 <asset_composite xmlns="http://namespaces.softwareag.com/acdl/1.0" targetNamespace="http://namespaces.softwareag.com/webMethods/IS" name="isconfiguration" runtimeVersion="10.3.0.0">
   <implementation.generic type="isconfiguration" />
-  <buildInfo name="build.version" value="10.3.1" />
-  <buildInfo name="BuildVersion" value="10.3.1" />
-  <buildInfo name="BuildTimestamp" value="2018-09-11T15:54:52" />
+  <buildInfo name="build.version" value="10.3.2" />
+  <buildInfo name="BuildVersion" value="10.3.2" />
+  <buildInfo name="BuildTimestamp" value="2018-09-11T18:13:58" />
   <buildInfo name="MinimumTargetRuntimeVersion" value="10.3.0.0" />
   <property name="suspendTasksDuringDeploy" displayName="Suspend Tasks During Deployment">
     <value>none</value>
@@ -22,11 +22,29 @@
       <value>C:\aBuilds\IS10.3\IS103_0911_118\jvm\jvm\bin\javac -classpath {0} -d {1} {2}</value>
     </property>
   </asset>
+  <asset name="Group.testGroup01" displayName="testGroup01">
+    <implementation.generic type="isgroup" />
+    <dependsOn>IS:User.test01</dependsOn>
+  </asset>
   <asset name="Acl.DeployerAdmin" displayName="DeployerAdmin">
     <implementation.generic type="isacl" />
   </asset>
   <asset name="Acl.testACL_invdu" displayName="testACL_invdu">
     <implementation.generic type="isacl" />
+    <dependsOn>IS:Group.testGroup01</dependsOn>
+  </asset>
+  <asset name="User.a" displayName="a">
+    <implementation.generic type="isuser" />
+    <property name="allowDigestAuth" displayName="Allow Digest Authentication">
+      <value>false</value>
+    </property>
+  </asset>
+  <asset name="User.test01" displayName="test01">
+    <implementation.generic type="isuser" />
+    <property name="allowDigestAuth" displayName="Allow Digest Authentication">
+      <value>false</value>
+    </property>
+    <dependsOn>IS:Group.testGroup01</dependsOn>
   </asset>
   <asset name="JNDIAlias.DEFAULT_IS_JNDI_PROVIDER" displayName="DEFAULT_IS_JNDI_PROVIDER">
     <implementation.generic type="isjndialias" />
