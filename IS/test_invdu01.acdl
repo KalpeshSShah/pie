@@ -1,8 +1,8 @@
-<asset_composite xmlns="http://namespaces.softwareag.com/acdl/1.0" targetNamespace="http://namespaces.softwareag.com/webMethods/IS" name="TestPackage1" runtimeVersion="10.3.0.0">
+<asset_composite xmlns="http://namespaces.softwareag.com/acdl/1.0" targetNamespace="http://namespaces.softwareag.com/webMethods/IS" name="test_invdu01" runtimeVersion="10.3.0.0">
   <implementation.generic type="ispackage" />
-  <buildInfo name="build.version" value="10.3.2" />
-  <buildInfo name="BuildVersion" value="10.3.2" />
-  <buildInfo name="BuildTimestamp" value="2018-08-20T16:12:29" />
+  <buildInfo name="build.version" value="10.3.3" />
+  <buildInfo name="BuildVersion" value="10.3.3" />
+  <buildInfo name="BuildTimestamp" value="2018-09-12T12:36:46" />
   <buildInfo name="MinimumTargetRuntimeVersion" value="10.3.0.0" />
   <property name="activatePkgOnInstall" displayName="Activate Package On Install">
     <value>true</value>
@@ -31,49 +31,43 @@
   <property name="syncDocTypesToBroker" displayName="Synchronize Document Types To Broker During Deployment">
     <value>true</value>
   </property>
-  <asset name="ISPackage.TestPackage1" displayName="TestPackage1">
+  <asset name="ISPackage.test_invdu01" displayName="test_invdu01">
     <implementation.generic type="ispackage" />
   </asset>
-  <asset name="Services.startup_TP1" displayName="Services:startup_TP1">
+  <asset name="test_invdu01.f1" displayName="test_invdu01:f1">
     <implementation.generic type="isflowservice" />
   </asset>
-  <asset name="Services.flow_TP1" displayName="Services:flow_TP1">
-    <implementation.generic type="isflowservice" />
-  </asset>
-  <asset name="Services.shutdown_TP1" displayName="Services:shutdown_TP1">
-    <implementation.generic type="isflowservice" />
-  </asset>
-  <asset name="TestPackage1.code" displayName="code">
+  <asset name="test_invdu01.code" displayName="code">
     <implementation.generic type="isfolder" />
   </asset>
-  <asset name="TestPackage1.code.classes" displayName="code/classes">
+  <asset name="test_invdu01.code.classes" displayName="code/classes">
     <implementation.generic type="isfolder" />
   </asset>
-  <asset name="TestPackage1.code.jars" displayName="code/jars">
+  <asset name="test_invdu01.code.jars" displayName="code/jars">
     <implementation.generic type="isfolder" />
   </asset>
-  <asset name="TestPackage1.code.source" displayName="code/source">
+  <asset name="test_invdu01.code.source" displayName="code/source">
     <implementation.generic type="isfolder" />
   </asset>
-  <asset name="TestPackage1.config" displayName="config">
+  <asset name="test_invdu01.config" displayName="config">
     <implementation.generic type="isfolder" />
   </asset>
-  <asset name="TestPackage1.doc" displayName="doc">
+  <asset name="test_invdu01.doc" displayName="doc">
     <implementation.generic type="isfolder" />
   </asset>
-  <asset name="TestPackage1.lib" displayName="lib">
+  <asset name="test_invdu01.lib" displayName="lib">
     <implementation.generic type="isfolder" />
   </asset>
-  <asset name="TestPackage1.pub" displayName="pub">
+  <asset name="test_invdu01.pub" displayName="pub">
     <implementation.generic type="isfolder" />
   </asset>
-  <asset name="TestPackage1.resources" displayName="resources">
+  <asset name="test_invdu01.resources" displayName="resources">
     <implementation.generic type="isfolder" />
   </asset>
-  <asset name="TestPackage1.templates" displayName="templates">
+  <asset name="test_invdu01.templates" displayName="templates">
     <implementation.generic type="isfolder" />
   </asset>
-  <asset name="TestPackage1.web" displayName="web">
+  <asset name="test_invdu01.web" displayName="web">
     <implementation.generic type="isfolder" />
   </asset>
 </asset_composite>
