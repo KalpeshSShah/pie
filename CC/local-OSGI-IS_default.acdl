@@ -4,7 +4,7 @@
     <buildInfo name="build.timestamp" value="2018-09-19T18:29:53"/>
     <buildInfo name="productId" value="integrationServer"/>
     <property name="integrationserver-default.is-provider-endpoints-http-ws_provider_http_epa.provider.transport.host" many="false" isSecure="false" displayName="integrationserver-default.is-provider-endpoints-http-ws_provider_http_epa.provider.transport.host">
-        <value>mcinvdu02.eur.ad.sag</value>
+        <value>varSUB</value>
     </property>
     <property name="integrationserver-default.is-provider-endpoints-http-ws_provider_http_epa.@alias" many="false" isSecure="false" displayName="integrationserver-default.is-provider-endpoints-http-ws_provider_http_epa.@alias">
         <value>WS_Provider_http_epa</value>
