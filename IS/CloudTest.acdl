@@ -1,7 +1,7 @@
 <asset_composite xmlns="http://namespaces.softwareag.com/acdl/1.0" targetNamespace="http://namespaces.softwareag.com/webMethods/IS" name="CloudTest" runtimeVersion="10.3.0.0">
   <implementation.generic type="ispackage" />
-  <buildInfo name="BuildVersion" value="10.3.0.0.1537389514368" />
-  <buildInfo name="BuildTimestamp" value="2018-09-19T16:38:34" />
+  <buildInfo name="BuildVersion" value="10.3.0.0.1537392057100" />
+  <buildInfo name="BuildTimestamp" value="2018-09-19T17:20:57" />
   <buildInfo name="MinimumTargetRuntimeVersion" value="10.3.0.0" />
   <property name="activatePkgOnInstall" displayName="Activate Package On Install">
     <value>true</value>
@@ -33,7 +33,7 @@
   <asset name="ISPackage.CloudTest" displayName="CloudTest">
     <implementation.generic type="ispackage" />
   </asset>
-  <asset name="CloudTest.services.math" displayName="CloudTest.services:math">
+  <asset name="CloudTest.services.math1" displayName="CloudTest.services:math1">
     <implementation.generic type="isflowservice" />
   </asset>
   <asset name="CloudTest.code" displayName="code">
