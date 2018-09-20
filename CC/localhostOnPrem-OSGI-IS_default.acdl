@@ -19,7 +19,7 @@
         <value>DocumentStore</value>
     </property>
     <property name="integrationserver-default.is-resources.resources.serverthreadpool.maximumthreads" many="false" isSecure="false" displayName="integrationserver-default.is-resources.resources.serverthreadpool.maximumthreads">
-        <value>'75'</value>
+        <value>'100'</value>
     </property>
     <property name="integrationserver-default.is-resources.storesettings.triggerdocumentstore.user" many="false" isSecure="false" displayName="integrationserver-default.is-resources.storesettings.triggerdocumentstore.user">
         <value>Administrator</value>
