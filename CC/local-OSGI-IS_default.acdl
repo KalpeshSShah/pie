@@ -13,6 +13,6 @@
         <value>bbdalai</value>
     </property>
     <property name="integrationserver-default.common-jndi-cloudjndi.jndi.provider.url" many="false" isSecure="false" displayName="integrationserver-default.common-jndi-cloudjndi.jndi.provider.url">
-        <value>nsp://vmdbvt05:9000/</value>
+        <value>${JNDI_URL}</value>
     </property>
 </asset_composite>
