@@ -10,6 +10,6 @@
         <value>aa</value>
     </property>
     <property name="integrationserver-default.common-jndi-cloudjndi.jndi.provider.url" many="false" isSecure="false" displayName="integrationserver-default.common-jndi-cloudjndi.jndi.provider.url">
-        <value>nsp://localhost:9001</value>
+        <value>${UM_URL}</value>
     </property>
 </asset_composite>
