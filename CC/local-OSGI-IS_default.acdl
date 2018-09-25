@@ -16,6 +16,6 @@
         <value>'{AES/CBC/PKCS5Padding}{8YdPNST19nPf+x9mhGx84YY30/UX+6pqAge/+zjXGDU=}{Iqli/7M6wpxkDwMtAgX+YQ==}wmQXJNCKG1HkBmE5i8qTQQ=='</value>
     </property>
     <property name="integrationserver-default.common-jndi-cloudjndi.jndi.provider.url" many="false" isSecure="false" displayName="integrationserver-default.common-jndi-cloudjndi.jndi.provider.url">
-        <value>nsp://vmdbvt05:9000/</value>
+        <value>${UM_URL}</value>
     </property>
 </asset_composite>
