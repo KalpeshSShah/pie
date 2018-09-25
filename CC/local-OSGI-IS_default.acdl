@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <asset_composite name="local-OSGI-IS_default" displayName="local-OSGI-IS_default" targetNamespace="http://namespaces.softwareag.com/webMethods/CC" xmlns="http://namespaces.softwareag.com/acdl/1.0" xmlns:EDA="http://namespaces.softwareag.com/webMethods/EDA" xmlns:MWS="http://namespaces.softwareag.com/webMethods/MWS" xmlns:IS="http://namespaces.softwareag.com/webMethods/IS" xmlns:APIPORTAL="http://namespaces.softwareag.com/webMethods/APIPORTAL" xmlns:AgileApps="http://namespaces.softwareag.com/webMethods/AgileApps" xmlns:BROKER="http://namespaces.softwareag.com/webMethods/BROKER" xmlns:implDetails="http://namespaces.softwareag.com/acdl/implDetails" xmlns:UniversalMessaging="http://namespaces.softwareag.com/webMethods/UniversalMessaging" xmlns:TN="http://namespaces.softwareag.com/webMethods/TN" xmlns:RULES="http://namespaces.softwareag.com/webMethods/RULES" xmlns:BPM="http://namespaces.softwareag.com/webMethods/BPM" xmlns:Optimize="http://namespaces.softwareag.com/webMethods/Optimize">
     <buildInfo name="BuildVersion" value="1"/>
-    <buildInfo name="build.timestamp" value="2018-09-25T15:32:16"/>
+    <buildInfo name="build.timestamp" value="2018-09-25T22:24:46"/>
     <buildInfo name="productId" value="integrationServer"/>
+    <property name="integrationserver-default.common-jndi-cloudjndi.jndi.provider.password" many="false" isSecure="true" displayName="integrationserver-default.common-jndi-cloudjndi.jndi.provider.password">
+        <value>'{AES/CBC/PKCS5Padding}{6/4OziB4d7Vkz0HuUMwzynbdnlquSjzhxGW7rG5Z8zc=}{PARhg5QVOLAl6NrvoFDtGw==}9j2WsyvWA2iuiMWUi+E6FA=='</value>
+    </property>
+    <property name="integrationserver-default.common-jms-cloudjms.jms.user" many="false" isSecure="false" displayName="integrationserver-default.common-jms-cloudjms.jms.user">
+        <value>bbdalai</value>
+    </property>
+    <property name="integrationserver-default.common-jndi-cloudjndi.jndi.provider.user" many="false" isSecure="false" displayName="integrationserver-default.common-jndi-cloudjndi.jndi.provider.user">
+        <value>bbdalai</value>
+    </property>
+    <property name="integrationserver-default.common-jms-cloudjms.jms.password" many="false" isSecure="true" displayName="integrationserver-default.common-jms-cloudjms.jms.password">
+        <value>'{AES/CBC/PKCS5Padding}{IuJ5sNSMnyizXVs8f05pRP8aB8VJSSYcgP3jwnuCVZ4=}{7vtbcSnFFO7S+NAyODbjWg==}1ppjHg3zx3b62EvdXculPA=='</value>
+    </property>
+    <property name="integrationserver-default.common-jndi-cloudjndi.jndi.provider.url" many="false" isSecure="false" displayName="integrationserver-default.common-jndi-cloudjndi.jndi.provider.url">
+        <value>nsp://vmdbvt05:9000/</value>
+    </property>
 </asset_composite>
