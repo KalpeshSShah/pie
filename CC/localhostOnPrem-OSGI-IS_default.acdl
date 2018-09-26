@@ -49,7 +49,7 @@
         <value>JKS</value>
     </property>
     <property name="integrationserver-default.common-jndi-cloudjndi.jndi.provider.url" many="false" isSecure="false" displayName="integrationserver-default.common-jndi-cloudjndi.jndi.provider.url">
-        <value>nsp://localhost:9001</value>
+        <value>${UM_URL}</value>
     </property>
     <property name="integrationserver-default.common-keystores_default_is_keystore.keystore.location" many="false" isSecure="false" displayName="integrationserver-default.common-keystores_default_is_keystore.keystore.location">
         <value>..\..\..\common\conf\keystore.jks</value>
@@ -67,7 +67,7 @@
         <value>'2147483647'</value>
     </property>
     <property name="integrationserver-default.common-wmmessaging-cloudmessage.messaging.provider.auth.user" many="false" isSecure="false" displayName="integrationserver-default.common-wmmessaging-cloudmessage.messaging.provider.auth.user">
-        <value>a</value>
+        <value>${UM_USER}</value>
     </property>
     <property name="integrationserver-default.is-resources.storesettings.triggerdocumentstore.user" many="false" isSecure="false" displayName="integrationserver-default.is-resources.storesettings.triggerdocumentstore.user">
         <value>Administrator</value>
@@ -79,13 +79,13 @@
         <value>''</value>
     </property>
     <property name="integrationserver-default.common-wmmessaging-cloudmessage.messaging.provider.url" many="false" isSecure="false" displayName="integrationserver-default.common-wmmessaging-cloudmessage.messaging.provider.url">
-        <value>nsp://localhost:9000</value>
+        <value>${UM_URL}</value>
     </property>
     <property name="integrationserver-default.is-resources.resources.serverthreadpool.maximumthreads" many="false" isSecure="false" displayName="integrationserver-default.is-resources.resources.serverthreadpool.maximumthreads">
         <value>'75'</value>
     </property>
-    <property name="integrationserver-default.common-wmmessaging-cloudmessage.messaging.provider.auth.password" many="false" isSecure="true" displayName="integrationserver-default.common-wmmessaging-cloudmessage.messaging.provider.auth.password">
-        <value>'*****'</value>
+    <property name="integrationserver-default.common-wmmessaging-cloudmessage.messaging.provider.auth.password" many="false" isSecure="false" displayName="integrationserver-default.common-wmmessaging-cloudmessage.messaging.provider.auth.password">
+        <value>${UM_PASSWORD}</value>
     </property>
     <property name="integrationserver-default.is-resources.resources.session.enablestatefulsessionlimit" many="false" isSecure="false" displayName="integrationserver-default.is-resources.resources.session.enablestatefulsessionlimit">
         <value>'true'</value>
