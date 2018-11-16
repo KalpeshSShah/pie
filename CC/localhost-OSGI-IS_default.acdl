@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<asset_composite name="localhost-OSGI-IS_default" displayName="localhost-OSGI-IS_default" targetNamespace="http://namespaces.softwareag.com/webMethods/CC" xmlns="http://namespaces.softwareag.com/acdl/1.0" xmlns:EDA="http://namespaces.softwareag.com/webMethods/EDA" xmlns:MWS="http://namespaces.softwareag.com/webMethods/MWS" xmlns:IS="http://namespaces.softwareag.com/webMethods/IS" xmlns:APIPORTAL="http://namespaces.softwareag.com/webMethods/APIPORTAL" xmlns:AgileApps="http://namespaces.softwareag.com/webMethods/AgileApps" xmlns:BROKER="http://namespaces.softwareag.com/webMethods/BROKER" xmlns:implDetails="http://namespaces.softwareag.com/acdl/implDetails" xmlns:UniversalMessaging="http://namespaces.softwareag.com/webMethods/UniversalMessaging" xmlns:TN="http://namespaces.softwareag.com/webMethods/TN" xmlns:RULES="http://namespaces.softwareag.com/webMethods/RULES" xmlns:BPM="http://namespaces.softwareag.com/webMethods/BPM" xmlns:Optimize="http://namespaces.softwareag.com/webMethods/Optimize">
+    <buildInfo name="BuildVersion" value="1"/>
+    <buildInfo name="build.timestamp" value="2018-11-15T16:47:49"/>
+    <buildInfo name="productId" value="integrationServer"/>
+    <property name="integrationserver-default.common-truststores_default_wmcloud_truststore.truststore.location" many="false" isSecure="false" displayName="integrationserver-default.common-truststores_default_wmcloud_truststore.truststore.location">
+        <value>packages\WmCloud\config\wmcloud_truststore.jks</value>
+    </property>
+    <property name="integrationserver-default.common-keystores_default_is_keystore.keystore.type" many="false" isSecure="false" displayName="integrationserver-default.common-keystores_default_is_keystore.keystore.type">
+        <value>JKS</value>
+    </property>
+    <property name="integrationserver-default.common-keystores_cloudmigration_keystore.keystore.type" many="false" isSecure="false" displayName="integrationserver-default.common-keystores_cloudmigration_keystore.keystore.type">
+        <value>JKS</value>
+    </property>
+    <property name="integrationserver-default.common-truststores_cloudmigration_truststore.truststore.password" many="false" isSecure="true" displayName="integrationserver-default.common-truststores_cloudmigration_truststore.truststore.password">
+        <value>'{AES/CBC/PKCS5Padding}{8p2prL4AjH3l/9GF5PyDvJFAcW3Chi/uibcVn/thdrY=}{uKovkrvWsniLNb8gJ03dlA==}87C/owc4zWBTqzF3QPEWxQ=='</value>
+    </property>
+    <property name="integrationserver-default.common-jms-tcfnonshareddurable_is_jms_connection.jms.password" many="false" isSecure="true" displayName="integrationserver-default.common-jms-tcfnonshareddurable_is_jms_connection.jms.password">
+        <value>'{AES/CBC/PKCS5Padding}{5gea5phmekTiQ3LGK+jvtmMg1T0JVgge9FlLKVwhNnM=}{9HsdwHrpqOli2nCA4HUjkw==}InH1OJGDVRTzCnniQ0BSQg=='</value>
+    </property>
+    <property name="integrationserver-default.common-jndi-jndi_test_auth.jndi.provider.url" many="false" isSecure="false" displayName="integrationserver-default.common-jndi-jndi_test_auth.jndi.provider.url">
+        <value>nsp://localhost:9005</value>
+    </property>
+    <property name="integrationserver-default.common-keystores_is_um_keystore.keystore.password" many="false" isSecure="true" displayName="integrationserver-default.common-keystores_is_um_keystore.keystore.password">
+        <value>'{AES/CBC/PKCS5Padding}{hEQbfFKH08Mn8IzItlp11wYECEZYHR9Wd4753Wdf/Bs=}{8YZwpr8XlLpEkByN/dqbkQ==}Ns0oPAJ7gyh++Zyoxb10Lw=='</value>
+    </property>
+    <property name="integrationserver-default.common-keystores_keystoretest.keystore.key.password" many="false" isSecure="true" displayName="integrationserver-default.common-keystores_keystoretest.keystore.key.password">
+        <value>'{AES/CBC/PKCS5Padding}{uWMyLql1gCsDCHhxATTAOH31jon1gIJdNiMgzQCQ/Lg=}{PtKqH9l7G3/OH0EPdaWRZQ==}WfJLUbTvVwxQa31lvYY5VQ=='</value>
+    </property>
+    <property name="integrationserver-default.common-keystores_cloudmigration_keystore.keystore.location" many="false" isSecure="false" displayName="integrationserver-default.common-keystores_cloudmigration_keystore.keystore.location">
+        <value>C:\SoftwareAG912\common\conf\CloudMigration_keystore.jks</value>
+    </property>
+    <property name="integrationserver-default.common-truststores_trustoretest.truststore.location" many="false" isSecure="false" displayName="integrationserver-default.common-truststores_trustoretest.truststore.location">
+        <value>packages\keystorelocation\resources\CloudMigration_truststore.jks</value>
+    </property>
+    <property name="integrationserver-default.common-jndi-jndi_nsp.jndi.provider.user" many="false" isSecure="false" displayName="integrationserver-default.common-jndi-jndi_nsp.jndi.provider.user">
+        <value>''</value>
+    </property>
+    <property name="integrationserver-default.common-truststores_default_wmcloud_truststore.truststore.password" many="false" isSecure="true" displayName="integrationserver-default.common-truststores_default_wmcloud_truststore.truststore.password">
+        <value>'{AES/CBC/PKCS5Padding}{sLi5+2jEplblk/ZG1XXBsvMiBxEQztT/WzoQjFLV7wA=}{n8me2bb/24FbWaBVVP0LtQ==}seti0KWcMpREiTHSeix0Hg=='</value>
+    </property>
+    <property name="integrationserver-default.common-jndi-jndi_test_auth.jndi.provider.password" many="false" isSecure="true" displayName="integrationserver-default.common-jndi-jndi_test_auth.jndi.provider.password">
+        <value>'{AES/CBC/PKCS5Padding}{Q4dNGxmhHVzKNlWotbS2zQSQ/4SIgapQYkzr5hzZ+Jo=}{KMrm4HC1RkNvp9gebNBGRA==}FLHWOGCtwKiLS2XGUtmeug=='</value>
+    </property>
+    <property name="integrationserver-default.common-keystores_default_is_keystore.keystore.location" many="false" isSecure="false" displayName="integrationserver-default.common-keystores_default_is_keystore.keystore.location">
+        <value>C:\SoftwareAG912\common\conf\keystore.jks</value>
+    </property>
+    <property name="integrationserver-default.common-keystores_cloudkeystore1.keystore.key.password" many="false" isSecure="true" displayName="integrationserver-default.common-keystores_cloudkeystore1.keystore.key.password">
+        <value>'{AES/CBC/PKCS5Padding}{nxQZAPEEINufFJ71kbvGUgnJNrJ+rFiqvb0nHlZhKHU=}{mJTrmuzbJbLKehOzVEr7eQ==}vtaKFDCqw/b127kOiX0DmA=='</value>
+    </property>
+    <property name="integrationserver-default.common-jndi-jndi_nhp_dc.jndi.provider.user" many="false" isSecure="false" displayName="integrationserver-default.common-jndi-jndi_nhp_dc.jndi.provider.user">
+        <value>test</value>
+    </property>
+    <property name="integrationserver-default.common-keystores_cloudmigration_keystore.keystore.password" many="false" isSecure="true" displayName="integrationserver-default.common-keystores_cloudmigration_keystore.keystore.password">
+        <value>'{AES/CBC/PKCS5Padding}{B4m/8jHAw3Mx4rl15JyomSdxwoC1olQB+/h+aj4xiUA=}{er7LP4N8pqNvz09bI+xOiw==}3WW1Q004ZmFhZh+FK/dZVg=='</value>
+    </property>
+    <property name="integrationserver-default.common-truststores_trustoretest.truststore.password" many="false" isSecure="true" displayName="integrationserver-default.common-truststores_trustoretest.truststore.password">
+        <value>'{AES/CBC/PKCS5Padding}{TKqPX1LDM534jVezYsdrheKgLl6zzXEENIXYDW8SXK4=}{WpIE96rl4L5YZJQdJK+/aQ==}zr78xuu3kIxYPcDibx5SCA=='</value>
+    </property>
+    <property name="integrationserver-default.common-truststores_cloudmigration_truststore.truststore.type" many="false" isSecure="false" displayName="integrationserver-default.common-truststores_cloudmigration_truststore.truststore.type">
+        <value>JKS</value>
+    </property>
+    <property name="integrationserver-default.common-jms-tcfshareddurable_is_jms_connection.jms.password" many="false" isSecure="true" displayName="integrationserver-default.common-jms-tcfshareddurable_is_jms_connection.jms.password">
+        <value>'{AES/CBC/PKCS5Padding}{n5Mt6BC2jwFZsN4F+UP6NwODFI/YeHYUy9w+pESVJyk=}{0h0YZjphvV0kxk0nKyqskg==}1p1bxCbcFqzLbXxeaEyxlw=='</value>
+    </property>
+    <property name="integrationserver-default.common-keystores_default_is_keystore.keystore.password" many="false" isSecure="true" displayName="integrationserver-default.common-keystores_default_is_keystore.keystore.password">
+        <value>'{AES/CBC/PKCS5Padding}{m2jnTtS8xCpukC6iEV6MvTi8JAO+OS5BXFkB7vsYklE=}{B5VmPGWJuizI96dk30NqFA==}HJw2A1zusOjSUq0y/GSheA=='</value>
+    </property>
+    <property name="integrationserver-default.common-truststores_trustoretest123.truststore.type" many="false" isSecure="false" displayName="integrationserver-default.common-truststores_trustoretest123.truststore.type">
+        <value>JKS</value>
+    </property>
+    <property name="integrationserver-default.common-jndi-jndi_nhp.jndi.provider.url" many="false" isSecure="false" displayName="integrationserver-default.common-jndi-jndi_nhp.jndi.provider.url">
+        <value>nsp://localhost:9000</value>
+    </property>
+    <property name="integrationserver-default.common-jndi-jndi_nsp.jndi.provider.url" many="false" isSecure="false" displayName="integrationserver-default.common-jndi-jndi_nsp.jndi.provider.url">
+        <value>nsp://localhost:9000</value>
+    </property>
+    <property name="integrationserver-default.common-jms-is_jms_connection_no_auth.jms.password" many="false" isSecure="true" displayName="integrationserver-default.common-jms-is_jms_connection_no_auth.jms.password">
+        <value>'{AES/CBC/PKCS5Padding}{aFqhIOPE2X9HfPdKPzhds4jVfH7Df+ZizEegoYx2PE4=}{uJv38p6UPdlEa2leJ5TqAw==}CHGbt4swgT0EX9g1y3hrvg=='</value>
+    </property>
+    <property name="integrationserver-default.common-keystores_is_um_keystore.keystore.type" many="false" isSecure="false" displayName="integrationserver-default.common-keystores_is_um_keystore.keystore.type">
+        <value>JKS</value>
+    </property>
+    <property name="integrationserver-default.common-jms-qcf_is_jms_connection.jms.password" many="false" isSecure="true" displayName="integrationserver-default.common-jms-qcf_is_jms_connection.jms.password">
+        <value>'{AES/CBC/PKCS5Padding}{iUio/Ywk5mOAUXtGTp5i8N9dpn8ydCUSLMIby/DCkWc=}{K8sW0feOtcfxZJqwmHDh7g==}OMblIo9htOg/9017tw7cPg=='</value>
+    </property>
+    <property name="integrationserver-default.common-truststores_default_wmcloud_truststore.truststore.type" many="false" isSecure="false" displayName="integrationserver-default.common-truststores_default_wmcloud_truststore.truststore.type">
+        <value>JKS</value>
+    </property>
+    <property name="integrationserver-default.common-jms-xacf_is_jms_connection.jms.password" many="false" isSecure="true" displayName="integrationserver-default.common-jms-xacf_is_jms_connection.jms.password">
+        <value>'{AES/CBC/PKCS5Padding}{P46bSfsKG4Ls4RDqud2XUMVL3qA/bc12u8P8Os6uePA=}{/WWX38z7gITlnoDXHSm5yQ==}cdLkxPJ6z0yq0S+G6j10nw=='</value>
+    </property>
+    <property name="integrationserver-default.common-keystores_cloudmigration_keystore.keystore.key.password" many="false" isSecure="true" displayName="integrationserver-default.common-keystores_cloudmigration_keystore.keystore.key.password">
+        <value>'{AES/CBC/PKCS5Padding}{FsVu47a+O1ps4qKrAAcb5PCRMu0TraFy1d6+u1BJbIg=}{ePSRr5cn2JYhD7bTrUuhgA==}9C2lTVGcZJhL66wpJiKqSA=='</value>
+    </property>
+    <property name="integrationserver-default.common-truststores_trustoretest123.truststore.location" many="false" isSecure="false" displayName="integrationserver-default.common-truststores_trustoretest123.truststore.location">
+        <value>packages/keytest/resources/CloudMigration_truststore.jks</value>
+    </property>
+    <property name="integrationserver-default.common-jms-jms_test_auth.jms.password" many="false" isSecure="true" displayName="integrationserver-default.common-jms-jms_test_auth.jms.password">
+        <value>'{AES/CBC/PKCS5Padding}{maURk78cxYM9r7YzaHxvpGYFLH2KvOKLv4SVKeek+gA=}{4XO72oKdixSM1DJXNhNUZA==}lW8Mv5K7pO0iiX7dQNXEUg=='</value>
+    </property>
+    <property name="integrationserver-default.common-jndi-jndi_nhps.jndi.provider.url" many="false" isSecure="false" displayName="integrationserver-default.common-jndi-jndi_nhps.jndi.provider.url">
+        <value>nsp://localhost:9000</value>
+    </property>
+    <property name="integrationserver-default.common-truststores_is_um_truststore.truststore.location" many="false" isSecure="false" displayName="integrationserver-default.common-truststores_is_um_truststore.truststore.location">
+        <value>C:\SoftwareAG912\UniversalMessaging\server\umserver\bin\nirvanacacerts.jks</value>
+    </property>
+    <property name="integrationserver-default.common-jndi-jndi_test_auth.jndi.provider.user" many="false" isSecure="false" displayName="integrationserver-default.common-jndi-jndi_test_auth.jndi.provider.user">
+        <value>test</value>
+    </property>
+    <property name="integrationserver-default.common-jms-cfshareddurable_is_jms_connection.jms.user" many="false" isSecure="false" displayName="integrationserver-default.common-jms-cfshareddurable_is_jms_connection.jms.user">
+        <value>test</value>
+    </property>
+    <property name="integrationserver-default.common-jms-tcfshareddurable_is_jms_connection.jms.user" many="false" isSecure="false" displayName="integrationserver-default.common-jms-tcfshareddurable_is_jms_connection.jms.user">
+        <value>test</value>
+    </property>
+    <property name="integrationserver-default.common-keystores_cloudkeystore.keystore.type" many="false" isSecure="false" displayName="integrationserver-default.common-keystores_cloudkeystore.keystore.type">
+        <value>JKS</value>
+    </property>
+    <property name="integrationserver-default.common-keystores_cloudkeystore1.keystore.location" many="false" isSecure="false" displayName="integrationserver-default.common-keystores_cloudkeystore1.keystore.location">
+        <value>packages\keystorelocation\resources\CloudMigration_keystore.jks</value>
+    </property>
+    <property name="integrationserver-default.common-jms-xacf_is_jms_connection.jms.user" many="false" isSecure="false" displayName="integrationserver-default.common-jms-xacf_is_jms_connection.jms.user">
+        <value>test</value>
+    </property>
+    <property name="integrationserver-default.common-jms-qcf_is_jms_connection.jms.user" many="false" isSecure="false" displayName="integrationserver-default.common-jms-qcf_is_jms_connection.jms.user">
+        <value>test</value>
+    </property>
+    <property name="integrationserver-default.common-keystores_cloudkeystore.keystore.key.password" many="false" isSecure="true" displayName="integrationserver-default.common-keystores_cloudkeystore.keystore.key.password">
+        <value>''</value>
+    </property>
+    <property name="integrationserver-default.common-truststores_trustoretest123.truststore.password" many="false" isSecure="true" displayName="integrationserver-default.common-truststores_trustoretest123.truststore.password">
+        <value>'{AES/CBC/PKCS5Padding}{zdDWMmRPYs8KVuYDkNADyjuPc/um05VfBCGPU8CEOfY=}{2/wTjDHQ6irHXLpsp2eRKA==}u0oOi/yIljcIB7n/mmQXYg=='</value>
+    </property>
+    <property name="integrationserver-default.common-truststores_is_um_truststore.truststore.password" many="false" isSecure="true" displayName="integrationserver-default.common-truststores_is_um_truststore.truststore.password">
+        <value>'{AES/CBC/PKCS5Padding}{PJQostnbWhbWfUP8+D3mpiJUN1VomqQtuw0N90d+P2E=}{dX7jPvG3ICPnyZT5a2Emog==}kse1BKXAtMgt++fqutJLgA=='</value>
+    </property>
+    <property name="integrationserver-default.common-jms-cfnonshareddurable_is_jms_connection.jms.user" many="false" isSecure="false" displayName="integrationserver-default.common-jms-cfnonshareddurable_is_jms_connection.jms.user">
+        <value>test</value>
+    </property>
+    <property name="integrationserver-default.common-truststores_is_um_truststore.truststore.type" many="false" isSecure="false" displayName="integrationserver-default.common-truststores_is_um_truststore.truststore.type">
+        <value>JKS</value>
+    </property>
+    <property name="integrationserver-default.common-keystores_cloudkeystore1.keystore.password" many="false" isSecure="true" displayName="integrationserver-default.common-keystores_cloudkeystore1.keystore.password">
+        <value>'{AES/CBC/PKCS5Padding}{P3fdyVOU4IfWJf/uPiGjmdaXtjvbO5jQANSLi4nt5wE=}{jXGn6glWzlB1FUQOr9meMw==}b0QU7iCbiFoOhFYExE9INg=='</value>
+    </property>
+    <property name="integrationserver-default.common-jndi-jndi_nhps.jndi.provider.user" many="false" isSecure="false" displayName="integrationserver-default.common-jndi-jndi_nhps.jndi.provider.user">
+        <value>test</value>
+    </property>
+    <property name="integrationserver-default.common-keystores_keystoretest.keystore.location" many="false" isSecure="false" displayName="integrationserver-default.common-keystores_keystoretest.keystore.location">
+        <value>packages/keytest/resources/CloudMigration_keystore.jks</value>
+    </property>
+    <property name="integrationserver-default.common-truststores_default_is_truststore.truststore.location" many="false" isSecure="false" displayName="integrationserver-default.common-truststores_default_is_truststore.truststore.location">
+        <value>C:\SoftwareAG912\common\conf\platform_truststore.jks</value>
+    </property>
+    <property name="integrationserver-default.common-truststores_default_is_truststore.truststore.password" many="false" isSecure="true" displayName="integrationserver-default.common-truststores_default_is_truststore.truststore.password">
+        <value>'{AES/CBC/PKCS5Padding}{zWSsRMbWxqjHlXYGpC2HNz508/fADKTr+qjK8nkc12M=}{XjYoOQ5PRAjLz22ZbUPmEw==}pzZ5YulU0luZDNCqbuAKOw=='</value>
+    </property>
+    <property name="integrationserver-default.common-keystores_cloudkeystore.keystore.location" many="false" isSecure="false" displayName="integrationserver-default.common-keystores_cloudkeystore.keystore.location">
+        <value>packages/keystorelocation/resources/CloudMigration_keystore.jks</value>
+    </property>
+    <property name="integrationserver-default.common-keystores_cloudkeystore.keystore.password" many="false" isSecure="true" displayName="integrationserver-default.common-keystores_cloudkeystore.keystore.password">
+        <value>'{AES/CBC/PKCS5Padding}{Zjv4clThJKIq5vtEW3SAVAxnPdfwM3m2dH+nQXdnRXE=}{RELaos28LXra9V+B0phJ0g==}e61piSDhm7GHH/o8WHsGSA=='</value>
+    </property>
+    <property name="integrationserver-default.common-jms-cfshareddurable_is_jms_connection.jms.password" many="false" isSecure="true" displayName="integrationserver-default.common-jms-cfshareddurable_is_jms_connection.jms.password">
+        <value>'{AES/CBC/PKCS5Padding}{hTJwPl6YKgbYJWJj/XtJm2szSz+95vXqgbaBm3TANsg=}{bjh+wPSfnPB7xp0j2Mfu7A==}NBgaWBiSCc94nJPAO3Opug=='</value>
+    </property>
+    <property name="integrationserver-default.common-jndi-jndi_nhp_dc.jndi.provider.password" many="false" isSecure="true" displayName="integrationserver-default.common-jndi-jndi_nhp_dc.jndi.provider.password">
+        <value>'{AES/CBC/PKCS5Padding}{xThK27ub333DFwv+HrYM+0iBKt23DY8obbJiBlp5wfw=}{hVo+Fw2FiRFpslm9Pe9Shg==}9F/IU3w5S7KeAZ8i5ajsYA=='</value>
+    </property>
+    <property name="integrationserver-default.common-jndi-jndi_nsps.jndi.provider.url" many="false" isSecure="false" displayName="integrationserver-default.common-jndi-jndi_nsps.jndi.provider.url">
+        <value>nsps://localhost:9002/</value>
+    </property>
+    <property name="integrationserver-default.common-jndi-jndi_nhp_dc.jndi.provider.url" many="false" isSecure="false" displayName="integrationserver-default.common-jndi-jndi_nhp_dc.jndi.provider.url">
+        <value>nsp://dcldev01.eur.ad.sag:9001/</value>
+    </property>
+    <property name="integrationserver-default.common-jms-cfnonshareddurable_is_jms_connection.jms.password" many="false" isSecure="true" displayName="integrationserver-default.common-jms-cfnonshareddurable_is_jms_connection.jms.password">
+        <value>'{AES/CBC/PKCS5Padding}{xTmApuAWZODaxtP+B6p7XZs60NB1R2dGoNl+CyhmkV8=}{I/3W6KmSEO0Pv/TmNZ79sg==}GMiTu4QQ4YBN72CumKe5Eg=='</value>
+    </property>
+    <property name="integrationserver-default.common-jms-jms_test_auth.jms.user" many="false" isSecure="false" displayName="integrationserver-default.common-jms-jms_test_auth.jms.user">
+        <value>test</value>
+    </property>
+    <property name="integrationserver-default.common-keystores_keystoretest.keystore.password" many="false" isSecure="true" displayName="integrationserver-default.common-keystores_keystoretest.keystore.password">
+        <value>'{AES/CBC/PKCS5Padding}{Hnuk7OD566sKLLV5rehKhqJspSXrVkVOLnkM9iBbviM=}{H7FwRDR5jWjaynVfBwsXlg==}muvauue/RNSgiF5arBHJuw=='</value>
+    </property>
+    <property name="integrationserver-default.common-truststores_default_is_truststore.truststore.type" many="false" isSecure="false" displayName="integrationserver-default.common-truststores_default_is_truststore.truststore.type">
+        <value>JKS</value>
+    </property>
+    <property name="integrationserver-default.common-keystores_default_is_keystore.keystore.key.password" many="false" isSecure="true" displayName="integrationserver-default.common-keystores_default_is_keystore.keystore.key.password">
+        <value>'{AES/CBC/PKCS5Padding}{MfopB92t1JZ9eSTQIksesLpA0dlqfvZCfGAxKvv0gP8=}{+yGvJYDTUt5uxRacfwi7uA==}N1nCFBzIjhR0ehfPCQ2isA=='</value>
+    </property>
+    <property name="integrationserver-default.common-jndi-jndi_nhps.jndi.provider.password" many="false" isSecure="true" displayName="integrationserver-default.common-jndi-jndi_nhps.jndi.provider.password">
+        <value>'{AES/CBC/PKCS5Padding}{Kcf5zSjrxVh7YBBHL/G2Hv4m1H3de+Gxwkaa+r2nyxU=}{BYK7J8xsHX1tZ3nxzWvLWw==}8m963enW3/+PvRQHAcgjmA=='</value>
+    </property>
+    <property name="integrationserver-default.common-jndi-jndi_nhp.jndi.provider.password" many="false" isSecure="true" displayName="integrationserver-default.common-jndi-jndi_nhp.jndi.provider.password">
+        <value>'{AES/CBC/PKCS5Padding}{+HwTBHDcuqavSbtz/sVt3tmQzhmVfXMprDP3JmzEUjE=}{uFo26RR7LPe+HuhT4flmHg==}qNhce8F4S3YT2LS6WZ38EQ=='</value>
+    </property>
+    <property name="integrationserver-default.common-keystores_keystoretest.keystore.type" many="false" isSecure="false" displayName="integrationserver-default.common-keystores_keystoretest.keystore.type">
+        <value>JKS</value>
+    </property>
+    <property name="integrationserver-default.common-truststores_trustoretest.truststore.type" many="false" isSecure="false" displayName="integrationserver-default.common-truststores_trustoretest.truststore.type">
+        <value>JKS</value>
+    </property>
+    <property name="integrationserver-default.common-jndi-jndi_nsps.jndi.provider.password" many="false" isSecure="true" displayName="integrationserver-default.common-jndi-jndi_nsps.jndi.provider.password">
+        <value>'{AES/CBC/PKCS5Padding}{D3Nj9hkw9OQ0RbSesiJNR2TtgqADFuZIASUBsEP/Ew0=}{Mq0wKFo51U4OOK9PRv0qNg==}YPz+EaCAxQPuVWjwDlLUyw=='</value>
+    </property>
+    <property name="integrationserver-default.common-jndi-jndi_nsps.jndi.provider.user" many="false" isSecure="false" displayName="integrationserver-default.common-jndi-jndi_nsps.jndi.provider.user">
+        <value>test</value>
+    </property>
+    <property name="integrationserver-default.common-jndi-jndi_nhp.jndi.provider.user" many="false" isSecure="false" displayName="integrationserver-default.common-jndi-jndi_nhp.jndi.provider.user">
+        <value>test</value>
+    </property>
+    <property name="integrationserver-default.common-keystores_cloudkeystore1.keystore.type" many="false" isSecure="false" displayName="integrationserver-default.common-keystores_cloudkeystore1.keystore.type">
+        <value>JKS</value>
+    </property>
+    <property name="integrationserver-default.common-keystores_is_um_keystore.keystore.key.password" many="false" isSecure="true" displayName="integrationserver-default.common-keystores_is_um_keystore.keystore.key.password">
+        <value>'{AES/CBC/PKCS5Padding}{pB+SM3pkzGtduNEsW5fTJsj1q6TX0snfYf/U+1FxelM=}{kmcNlzY4vR3iWAg9dvO40Q==}NfDReaLq9XGNg8QTUhjEGA=='</value>
+    </property>
+    <property name="integrationserver-default.common-truststores_cloudmigration_truststore.truststore.location" many="false" isSecure="false" displayName="integrationserver-default.common-truststores_cloudmigration_truststore.truststore.location">
+        <value>C:\SoftwareAG912\common\conf\CloudMigration_truststore.jks</value>
+    </property>
+    <property name="integrationserver-default.common-keystores_is_um_keystore.keystore.location" many="false" isSecure="false" displayName="integrationserver-default.common-keystores_is_um_keystore.keystore.location">
+        <value>C:\SoftwareAG912\UniversalMessaging\server\umserver\bin\client.jks</value>
+    </property>
+    <property name="integrationserver-default.common-jms-is_jms_connection_no_auth.jms.user" many="false" isSecure="false" displayName="integrationserver-default.common-jms-is_jms_connection_no_auth.jms.user">
+        <value>test</value>
+    </property>
+    <property name="integrationserver-default.common-jms-tcfnonshareddurable_is_jms_connection.jms.user" many="false" isSecure="false" displayName="integrationserver-default.common-jms-tcfnonshareddurable_is_jms_connection.jms.user">
+        <value>test</value>
+    </property>
+</asset_composite>
